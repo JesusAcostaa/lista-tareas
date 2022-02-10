@@ -10,7 +10,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/TCar10s/todo-list-js/main/src/assets/todo-list.jpeg)
+![screenshot](https://raw.githubusercontent.com/JesusAcostaa/lista-tareas/main/src/assets/todolist.jpg)
 
 
 ## Notas
