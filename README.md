@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://tcar10s.github.io/todo-list-js/">
+    <a href="https://jesusacostaa.github.io/lista-tareas/">
       Demo
     </a>
   </h3>
