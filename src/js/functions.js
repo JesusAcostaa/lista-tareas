@@ -7,9 +7,9 @@ export function mostraTareas() {
   cajaTarea.innerHTML = "";
   arrayTareas.forEach((item) => {
     cajaTarea.innerHTML += `
-        <li data-id="${item.id}">
+        <li data-id="${item.id}" class="${item.completed ? 'completed' : ''}">
             <div class="view">
-                <input class="toggle" type="checkbox">
+                <input class="toggle" type="checkbox" ${item.completed ? 'checked' : ''}>
                 <label>${item.tarea}</label>
                 <button class="destroy"></button>
             </div>
