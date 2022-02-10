@@ -64,7 +64,7 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      filename: "./index.[contenthash].html",
+      filename: "./index.html",
       inject: "body", // Inyectamos el script el el body.
     }),
     new MiniCssExtractPlugin({
