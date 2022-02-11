@@ -16,4 +16,18 @@ export class Tareas {
     const tareaAMarcar = this.tareas.find((item) => item.id === Number(id));
     tareaAMarcar.completed = !tareaAMarcar.completed;
   }
+  eliminarTareasCompletadas() {
+    this.tareas = this.tareas.filter((item) => item.completed != true);
+  }
+
+  totalPendientes() {
+    let contador = 0;
+    this.tareas.forEach((item) => {
+      if (item.completed === false) {
+        contador++;
+      }
+    });
+    console.log(contador);
+    return contador;
+  }
 }
